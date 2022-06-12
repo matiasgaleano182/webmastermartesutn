@@ -2,3 +2,7 @@ coca
 salchichas 
 panchos
 helado
+banana
+manzana
+sandia
+frutillas
