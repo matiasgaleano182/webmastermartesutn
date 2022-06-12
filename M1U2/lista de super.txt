@@ -1,6 +1,4 @@
-coca 
-salchichas 
-panchos
+
 helado
 banana
 manzana
