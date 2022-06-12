@@ -1,1 +1,4 @@
 datos de la persona
+nombre
+apellido 
+telefono
