@@ -1,0 +1,28 @@
+.cuadrado1{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: blue;
+    border: 2px solid black ;
+    float: left;
+    cursor: pointer ;
+    
+}
+.cuadrado2{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: red;
+    border: 2px solid black ;
+    float: left;
+    cursor: pointer ;
+}
+.cuadrado3{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: green;
+    border: 2px solid black ;
+    float: left;
+    cursor: pointer ;
+}

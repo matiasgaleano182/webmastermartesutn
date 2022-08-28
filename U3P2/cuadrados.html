@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="cuadrados.css">
+</head>
+
+<body>
+    <h3>Cuadrados
+    </h3>
+    <button class="cuadrado1" type="button" onclick="azul();">
+    </button>
+    <button class="cuadrado2" type="button" onclick="rojo();">
+    </button>
+    <button class="cuadrado3" type="button" onclick="verde();">
+    </button>
+
+    <script>
+      function azul() {
+        let body = document.getElementsByTagName('body')[0]
+        body.style.backgroundColor="blue"
+      }
+      function rojo() {
+        let body = document.getElementsByTagName('body')[0]
+        body.style.backgroundColor="red"
+      }
+      function verde() {
+        let body = document.getElementsByTagName('body')[0]
+        body.style.backgroundColor="green"
+      }
+    </script>
+</body>
+
+</html>

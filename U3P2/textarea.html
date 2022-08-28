@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="cuadrados.css">
+</head>
+
+<body>
+    <form name="form">
+        <textarea name="text" id="text" cols="30" rows="10" oninput="countText()"></textarea><br>
+        <label for="characters">caracteres: </label><span id="characters"></span>
+    </form>
+    <script>
+        function countText() {
+            let text = document.form.text.value;
+            document.getElementById('characters').innerText = text.length;
+        }
+    </script>
+</body>
+
+</html>
