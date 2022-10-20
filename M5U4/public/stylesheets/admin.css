@@ -1,0 +1,15 @@
+.h1{
+    font-size: 32px;
+    margin: 21.44px 0px 21.44px 20px;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+button{
+    margin-top: 20px;
+    
+}
+
+.error {
+    color:white;
+}
