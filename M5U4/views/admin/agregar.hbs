@@ -1,0 +1,23 @@
+<div>
+    <h3 class="text-center error">Agregar una Noticia</h3>
+    <form action="/admin/novedades/agregar" method="post">
+        <div class="mb-3 row">
+            <label for="exampleFormControlInput1" class="form-label error">titulo</label>
+            <input type="text" class="form-control" name="titulo" placeholder="titulo">
+        </div>
+        <div class="mb-3 row">
+            <label for="exampleFormControlInput1" class="form-label error">subtitulo</label>
+            <input type="text" class="form-control" name="subtitulo" placeholder="subtitulo">
+        </div>
+        <div class="mb-3 row">
+            <label for="exampleFormControlTextarea1" class="form-label error">texto</label>
+            <textarea class="form-control" name="cuerpo" rows="3"></textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary"> Guardar</button>
+        </div>
+    </form>
+    {{#if error}}   
+    <p>{{message}}</p>
+    {{/if}}
+</div>

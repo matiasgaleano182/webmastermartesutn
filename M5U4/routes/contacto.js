@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var nodemailer = require('nodemailer');
-
+//var contactoModel = require('../models/contactoModel');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -32,6 +32,7 @@ router.post('/', async (req, res, next) => {
   })
 
   var info = await transporter.sendMail(obj);
+ // var contacto = await contactoModel.insertContacto(req.body);
 
   res.render('contacto', {
     isContacto: true,

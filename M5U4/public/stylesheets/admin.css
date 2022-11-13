@@ -13,3 +13,14 @@ button{
 .error {
     color:white;
 }
+
+.h2admin {
+    color: white;
+    background-color:black;
+    font-size: 100%;
+}
+
+.tabla {
+    background-color:bisque;
+    color: black;
+}

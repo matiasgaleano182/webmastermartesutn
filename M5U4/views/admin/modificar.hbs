@@ -1,0 +1,26 @@
+<div>
+    <h3 class="text-center error">Modificar una Noticia</h3>
+    <form action="/admin/novedades/modificar" method="post">
+    <input type="hidden" value="{{novedad.id}}" name="id">
+        <div class="mb-3 row">
+            <label for="exampleFormControlInput1" class="form-label error">titulo</label>
+            <input type="text" class="form-control" id="usuario" name="titulo" placeholder="titulo" 
+                value="{{novedad.titulo}}">
+        </div>
+        <div class="mb-3 row">
+            <label for="exampleFormControlInput1" class="form-label error">subtitulo</label>
+            <input type="text" class="form-control" name="subtitulo" placeholder="subtitulo" 
+            value="{{novedad.subtitulo}}">
+        </div>
+        <div class="mb-3 row">
+            <label for="exampleFormControlTextarea1" class="form-label error">texto</label>
+            <textarea class="form-control" name="cuerpo" rows="3">{{novedad.cuerpo}}</textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary"> Modificar</button>
+        </div>
+    </form>
+    {{#if error}}   
+    <p>{{message}}</p>
+    {{/if}}
+</div>
